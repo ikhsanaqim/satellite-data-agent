@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.env
+.deps/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+build/
+dist/
+*.egg-info/
+reports/*.md
+docs/langgraph_state_graph.png
+docs/langgraph_state_graph.mmd
+
+data/chroma_db/
