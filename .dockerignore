@@ -1,0 +1,17 @@
+# Version control
+.git
+.gitignore
+
+# Environment variables (JANGAN masukkan API keys ke dalam Docker image!)
+.env
+
+# Python build & cache files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.deps/
+
+# Output directories
+reports/
+docs/
