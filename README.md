@@ -6,7 +6,7 @@ colorTo: indigo
 sdk: docker
 app_file: app.py
 pinned: false
-app_port: 8501
+app_port: 7860
 ---
 # satellite-data-agent
 
