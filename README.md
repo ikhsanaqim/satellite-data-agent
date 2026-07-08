@@ -1,3 +1,12 @@
+---
+title: Satellite Data Agent
+emoji: 🛰️
+colorFrom: blue
+colorTo: indigo
+sdk: docker
+pinned: false
+app_port: 8501
+---
 # satellite-data-agent
 
 Agentic workflow untuk analisis data satelit dan IoT telemetry. Proyek ini memakai LangGraph sebagai orchestration layer:
