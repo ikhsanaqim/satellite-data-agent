@@ -45,4 +45,14 @@ def build_llm() -> SimpleLLM:
             base_url="https://openrouter.ai/api/v1",
         )
 
+    if provider == "gemini":
+        from langchain_google_genai import ChatGoogleGenerativeAI
+        
+        api_key = os.getenv("GOOGLE_AI_API_KEY")
+        return ChatGoogleGenerativeAI(
+            model="gemini-2.5-flash",
+            temperature=0.2,
+            google_api_key=api_key,
+        )
+
     return MockLLM()

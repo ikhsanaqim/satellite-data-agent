@@ -30,4 +30,4 @@ RUN pip install --no-cache-dir -e .
 EXPOSE 8501
 
 # Command untuk menjalankan Streamlit saat container dijalankan
-CMD ["streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0.0"]
+CMD ["streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0.0", "--server.enableCORS=false", "--server.enableXsrfProtection=false"]
