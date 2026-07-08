@@ -35,4 +35,4 @@ RUN pip install --no-cache-dir -e .
 EXPOSE 7860
 
 # Command untuk menjalankan Streamlit saat container dijalankan
-CMD ["bash", "run.sh"]
+CMD streamlit run app.py --server.port=7860 --server.address=0.0.0.0 --server.enableCORS=false --server.enableXsrfProtection=false
